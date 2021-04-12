@@ -1,10 +1,12 @@
 body { 
-    background-color: darkgray;
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
 }
 h1 {
     padding: 20px;
     font-family:Arial, Helvetica, sans-serif;
-    color: #ffffff;
+    color: black;
     display: inline-block;
     font-size: 48px;
 }
@@ -20,20 +22,22 @@ h1 {
     display: inline-block;
     margin-left: 25px;
 }
-div.AI {
-        margin-bottom: 25px;
-    }
-    
-div.AI img {
-        height:500px;
-        width: 100%;
-        object-fit: cover ;
-    }
-section h2 p {
+
+section h2 {
     font-family: Arial, Helvetica, sans-serif;
-    
 
 }
+section ul li {
+    display:grid;
+    margin-left: 25px;
+}
+div img {
+    height:500px;
+    width:100%;
+    object-fit:scale-down;
+    border: 10px;
+}
+
 .footer {
         padding: 30px;
         clear: both;
